@@ -98,8 +98,8 @@ Create and populate the db. Only needs to be done once or to reset db data
 ```shell
 go run main.go
 ```
-OR from Docker image (wip, currently needs db setup)
-### The API
+
+### OR from Docker image (wip, currently needs db setup)
 ```shell
 docker pull rmaytham/test_repo
 
