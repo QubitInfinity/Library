@@ -98,3 +98,7 @@ Create and populate the db. Only needs to be done once or to reset db data
 ```shell
 go run main.go
 ```
+Or the compiled executable might work (compiled on Ubuntu 22)
+```shell
+go ./main
+```
