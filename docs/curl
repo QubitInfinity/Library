@@ -1,0 +1,19 @@
+curl --location --request GET 'http://localhost:8080/books/6' --data-raw ''
+
+curl --location --request GET 'http://localhost:8080/booksRead/1' --data-raw ''
+
+curl --location --request GET 'http://localhost:8080/members/2' --data-raw ''
+
+curl --location --request POST 'http://localhost:8080/borrow' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "BookId": 4,
+    "MemberId": 1
+}'
+
+curl --location --request PATCH 'http://localhost:8080/return' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "BookId": 4,
+    "MemberId": 1
+}'
